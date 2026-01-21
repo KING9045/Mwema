@@ -52,6 +52,19 @@ Uses the native `say` command.
 
 ---
 
+## 📥 Manual Model Download (Alternative)
+
+If you have a slow internet connection or prefer to download the model manually, follow these steps:
+
+1. **Download the Model File**:
+   Click the link below to download the specific GGUF version we use:
+   👉 [Download tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf (669 MB)](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf)
+
+2. **Place the File**:
+   Create a folder named `models` in the application data directory (see [Model Storage](#1-model-storage) below) and move the downloaded file into it.
+
+---
+
 ## 🛠️ Configuration & Troubleshooting
 
 ### 1. Model Storage
