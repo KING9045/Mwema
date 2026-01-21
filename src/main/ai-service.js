@@ -263,7 +263,8 @@ async function initializeModel() {
 
         console.log('Creating llama instance...');
         if (!llamaInstance) {
-            llamaInstance = await getLlama();
+            // Force CPU backend to avoid Vulkan/GPU driver assertion crashes on Windows/Linux
+            llamaInstance = await getLlama({ gpu: false });
         }
 
         console.log('Loading TinyLlama model from:', modelPath);

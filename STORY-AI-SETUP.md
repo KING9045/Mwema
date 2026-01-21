@@ -74,7 +74,7 @@ The AI model (`tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf`) is stored in:
 - **macOS**: `~/Library/Application Support/Mwema App/models/`
 
 ### 2. Slow Story Generation
-The AI runs locally on your **CPU** to ensure maximum compatibility. Generation usually takes **15-30 seconds** depending on your processor. 
+The AI runs locally on your **CPU** to ensure maximum compatibility and to avoid common GPU driver crashes (like the "Vulkan Assertion Failed" error on Windows). Generation usually takes **15-30 seconds** depending on your processor. 
 
 ### 3. Voice is not playing (Linux)
 If you click "Listen to Story" and nothing happens, ensure `espeak` is installed:
